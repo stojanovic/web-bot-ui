@@ -1,7 +1,7 @@
 /* global describe, it, expect */
 'use strict'
 
-const WebBot = require('../src/web-bot')
+import WebBot from '../src/web-bot'
 
 describe('Web bot', () => {
   it('should be a class', () => {
