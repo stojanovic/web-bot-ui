@@ -1,0 +1,19 @@
+{
+  "name": "web-bot-ui",
+  "version": "1.0.0",
+  "description": "Simple web UI for chatbot",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint src spec",
+    "test": "jest --config=spec/support/jest-config.json",
+    "build": "mkdir build && babel src/web-bot.js --out-file build/web-bot.js"
+  },
+  "author": "Slobodan Stojanovic <slobodan@cloudhorizon.com> (http://slobodan.me/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "eslint": "^3.14.0",
+    "eslint-config-defaults": "^9.0.0",
+    "jest": "^18.1.0"
+  }
+}

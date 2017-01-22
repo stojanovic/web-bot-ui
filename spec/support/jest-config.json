@@ -1,0 +1,4 @@
+{
+  "testPathDirs": ["spec"],
+  "testRegex": "[sS]pec\\.js$"
+}
