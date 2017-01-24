@@ -2,14 +2,14 @@
 
 import React from 'react'
 
-export default class Header extends React.Component {
+export default class MessagesContainer extends React.Component {
   constructor(props) {
     super(props)
   }
 
   render() {
     return <div>
-        <div>{this.props.botName}</div>
+        { this.props.messages }
       </div>
   }
 }

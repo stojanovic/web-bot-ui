@@ -9,10 +9,10 @@ export default class Chat extends React.Component {
   }
 
   render() {
-    return <Chat>
+    return <div>
       <Header></Header>
       <MessagesContainer></MessagesContainer>
       <MessageComposer></MessageComposer>
-    </Chat>
+    </div>
   }
 }
